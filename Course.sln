@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo_Heranca_multipla_e_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo_usando_Interface_IComparable", "Exemplo_usando_Interface_IComparable\Exemplo_usando_Interface_IComparable.csproj", "{3433998B-D63A-4940-A6A7-2F61B9D8CCDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo_usando_Generics", "Exemplo_usando_Generics\Exemplo_usando_Generics.csproj", "{14D986F9-4565-443E-BD68-4271EF33E058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo_usando_Generics", "Exemplo_usando_Generics\Exemplo_usando_Generics.csproj", "{14D986F9-4565-443E-BD68-4271EF33E058}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo_Restricao_Generics", "Exemplo_Restricao_Generics\Exemplo_Restricao_Generics.csproj", "{5D2C90F1-0201-42C9-B8C2-C250AEEBBD13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{14D986F9-4565-443E-BD68-4271EF33E058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14D986F9-4565-443E-BD68-4271EF33E058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14D986F9-4565-443E-BD68-4271EF33E058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2C90F1-0201-42C9-B8C2-C250AEEBBD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2C90F1-0201-42C9-B8C2-C250AEEBBD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2C90F1-0201-42C9-B8C2-C250AEEBBD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2C90F1-0201-42C9-B8C2-C250AEEBBD13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
