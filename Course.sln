@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo_HashSet_SortedSet",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo_usando_Conjuntos", "Exemplo_usando_Conjuntos\Exemplo_usando_Conjuntos.csproj", "{BD362BBC-3EA1-48B0-AE7D-1C51924C78C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_fixacao_Conjuntos", "Exercicio_fixacao_Conjuntos\Exercicio_fixacao_Conjuntos.csproj", "{7528422A-7C1E-4D03-81C0-0AA4BF6E9263}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{BD362BBC-3EA1-48B0-AE7D-1C51924C78C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD362BBC-3EA1-48B0-AE7D-1C51924C78C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD362BBC-3EA1-48B0-AE7D-1C51924C78C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7528422A-7C1E-4D03-81C0-0AA4BF6E9263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7528422A-7C1E-4D03-81C0-0AA4BF6E9263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7528422A-7C1E-4D03-81C0-0AA4BF6E9263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7528422A-7C1E-4D03-81C0-0AA4BF6E9263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
