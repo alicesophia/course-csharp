@@ -10,8 +10,40 @@ namespace Course {
 
         static void Main(string[] args) {
 
+            //Exemplo sobre Dictionary e SortedDictionary
+            //Declara o Dictionary com os 2 tipos (da chave e do valor)
+            Dictionary<string, string> cookies = new Dictionary<string, string>();
+
+            //É possível fazer assim ao invés do .Add
+            cookies["user"] = "maria";
+            cookies["email"] = "maria@gmail.com";
+            cookies["phone"] = "99771122";
+            cookies["phone"] = "99771133";            
+            
+            Console.WriteLine(cookies["email"]);
+            
+            cookies.Remove("email");
+            
+            Console.WriteLine("Phone number: " + cookies["phone"]);
+            
+            if (cookies.ContainsKey("email")) {
+                Console.WriteLine("Email: " + cookies["email"]);
+            } else {
+                Console.WriteLine("There is not 'email' key");
+            }
+            
+            Console.WriteLine("Size: " + cookies.Count);
+            
+            Console.WriteLine("ALL COOKIES:");
+
+            //No lugar de KeyValuePair também pode ser usado o var
+            foreach (KeyValuePair<string, string> item in cookies) {
+                Console.WriteLine(item.Key + ": " + item.Value);
+            }
+
+
             //Exemplos de HashSet e SortedSet
-            Console.WriteLine("HashSet: ");
+            /*Console.WriteLine("HashSet: ");
             HashSet<string> set = new HashSet<string>();
 
             set.Add("TV");
@@ -48,7 +80,7 @@ namespace Course {
             SortedSet<int> e = new SortedSet<int>(a);
             e.ExceptWith(b);
 
-            PrintCollection(e);
+            PrintCollection(e);*/
 
             //Exemplos de GetHasCode e Equals
             /*Client client1 = new Client { Name = "Maria", Email = "maria@gmail.com" };
