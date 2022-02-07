@@ -20,7 +20,7 @@ namespace Exemplo_HashSet_SortedSet {
             
             //Quanto o tipo é struct, é comparado por conteúdo
             Point point = new Point(5, 10);
-            Console.WriteLine(b.Contains(point));
+            Console.WriteLine(b.Contains(point));            
 
         }
 
