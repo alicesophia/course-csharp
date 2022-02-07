@@ -10,7 +10,48 @@ namespace Course {
 
         static void Main(string[] args) {
 
-            Client client1 = new Client { Name = "Maria", Email = "maria@gmail.com" };
+            //Exemplos de HashSet e SortedSet
+            Console.WriteLine("HashSet: ");
+            HashSet<string> set = new HashSet<string>();
+
+            set.Add("TV");
+            set.Add("Notebook");
+            set.Add("Tablet");
+            
+            Console.WriteLine(set.Contains("Computer"));
+
+            foreach (string s in set) {
+                Console.WriteLine(s);
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("SortedSet: ");
+
+            SortedSet<int> a = new SortedSet<int>() { 0, 2, 4, 5, 6, 8, 10 };
+            SortedSet<int> b = new SortedSet<int>() { 5, 6, 7, 8, 9, 10 };
+
+            PrintCollection(a);
+
+            //União de conjuntos
+            SortedSet<int> c = new SortedSet<int>(a);
+            c.UnionWith(b);
+
+            PrintCollection(c);
+
+            //Intersecção de conjuntos
+            SortedSet<int> d = new SortedSet<int>(a);
+            d.IntersectWith(b);
+
+            PrintCollection(d);
+
+            //Diferença de conjuntos
+            SortedSet<int> e = new SortedSet<int>(a);
+            e.ExceptWith(b);
+
+            PrintCollection(e);
+
+            //Exemplos de GetHasCode e Equals
+            /*Client client1 = new Client { Name = "Maria", Email = "maria@gmail.com" };
             Client client2 = new Client { Name = "Alex", Email = "alex@gmail.com" };
 
             Console.WriteLine(client1.Equals(client2));
@@ -19,12 +60,12 @@ namespace Course {
             Console.WriteLine(client1.GetHashCode());
             Console.WriteLine(client2.GetHashCode());
 
-            //string a = "Maria";
-            //string b = "José";
+            string a = "Maria";
+            string b = "José";
             
             //Para cada objeto é gerado um hash code diferente
-            //Console.WriteLine(a.GetHashCode());
-            //Console.WriteLine(b.GetHashCode());
+            Console.WriteLine(a.GetHashCode());
+            Console.WriteLine(b.GetHashCode());*/
 
             //Trabalhando com arquivos
 
@@ -674,5 +715,14 @@ namespace Course {
             }*/
 
         }
+
+        //IEnumerable é uma interface implementada em todos as coleções do pacote System.Collections.Generic;
+        static void PrintCollection<T>(IEnumerable<T> collection) {
+            foreach (T obj in collection) {
+                Console.Write(obj + " ");
+            }
+            Console.WriteLine();
+        }
+
     }
 }
