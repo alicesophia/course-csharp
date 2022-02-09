@@ -1,8 +1,8 @@
 ﻿using System;
-using Exemplo_Delegates.Entities;
+using Exemplo_Comparison.Entities;
 using System.Collections.Generic;
 
-namespace Exemplo_Delegates {
+namespace Exemplo_Comparison.Entities {
     class Program {
         static void Main(string[] args) {
 

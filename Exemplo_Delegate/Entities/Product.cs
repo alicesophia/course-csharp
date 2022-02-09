@@ -1,6 +1,5 @@
-﻿using System.Globalization;
-
-namespace Exemplo_Comparison.Entities {
+﻿
+namespace Exemplo_Delegate.Entities {
     class Product {
 
         public string Name { get; set; }
@@ -12,7 +11,7 @@ namespace Exemplo_Comparison.Entities {
         }
 
         public override string ToString() {
-            return Name + ", " + Price.ToString("F2", CultureInfo.InvariantCulture);
+            return Name + ", " + Price.ToString("F2");
         }
 
     }
