@@ -55,7 +55,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo_Comparison", "Exemp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo_Delegate", "Exemplo_Delegate\Exemplo_Delegate.csproj", "{0CF7073C-4E86-448A-A2B3-1DB6113079C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo_Linq_com_Lambda", "Exemplo_Linq_com_Lambda\Exemplo_Linq_com_Lambda.csproj", "{17529710-6F74-4FFC-808B-EA7624ECC6CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo_Linq_com_Lambda", "Exemplo_Linq_com_Lambda\Exemplo_Linq_com_Lambda.csproj", "{17529710-6F74-4FFC-808B-EA7624ECC6CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo_usando_Lambda_Delegates_Linq", "Exemplo_usando_Lambda_Delegates_Linq\Exemplo_usando_Lambda_Delegates_Linq.csproj", "{D5D8B119-198F-42CD-A427-186AB68BC39A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{17529710-6F74-4FFC-808B-EA7624ECC6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17529710-6F74-4FFC-808B-EA7624ECC6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17529710-6F74-4FFC-808B-EA7624ECC6CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5D8B119-198F-42CD-A427-186AB68BC39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5D8B119-198F-42CD-A427-186AB68BC39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5D8B119-198F-42CD-A427-186AB68BC39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5D8B119-198F-42CD-A427-186AB68BC39A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
